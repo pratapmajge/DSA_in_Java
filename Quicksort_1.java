@@ -12,7 +12,7 @@ public class Quicksort {
                 arr[j]=temp; //whole block work on smaller than pivote
             }
         }
-        i++; //to find correect position of pivote
+        i++; //to find correect position of pivote element
         int temp=arr[i];
         arr[i]=arr[high];//arr[high]=pivote
         arr[high]=temp;
